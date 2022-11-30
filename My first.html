@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--lang (language)-->
+<html lang="en">
+<head>
+    <!--Toda la información meta ayudará al navegador a situar la web, UTF-8 es la estandar que no podrá usarse de otra manera.-->
+    <meta charset="UTF-8">
+    <!--Es la estandar para cualquierte buscador.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first page</title>
+</head>
+<body> <!--Todo lo que ocurre en body es la sustancia e información de la web. Aquí se abre.-->
+<!--Para insertar un imagen, src (source) y alt para dar información interna de la propia imagen.-->   
+
+<table cellspacing = "60">
+    <tr>
+        <td><img src="Miperro.png" alt="Team mi perro"></td>
+        <td><h1>Lucha del perro</h1>
+            <p><em>Historia de la lucha en el <strong>padel.</strong></em></p>
+            <p>Las constantes lucha del <a href="https://www.youtube.com/shorts/ZppOILNlvTc">team mi perro</a> tras el honor de las pelotas padel contra el team inferno.</p>
+        </td>
+    </tr>
+</table>
+
+    
+    <hr size="3">
+
+    <h3>Mapa de la historia: El índice</h3>
+    <ul> <!--Para organizar las oraciones a través de puntos acompañado del comando li(listas)-->
+        <li>Día A</li>
+        <!--Se pueden hacer más listas internas, en este caso numéricas y ha sido detallado que es de tipo romano-->
+        <ol type="i">
+            <li>El encuentro en la cancha</li>
+            <li>El día de la marcha</li>
+            <li>Las últimas bebidas sin victoria</li>
+            <li>El sentimiento del lúpudo</li>
+        </ol>
+
+        <li>Día V</li>
+    
+        <ol type = "i">
+            <li>Era mentira, necesitamos más cerveza</li>
+            <li>Entrenemos bajo el sol</li>
+            <li>Somos lo que somos</li>
+            <li>La Victoria</li>
+        </ol>
+    </ul>
+<!--Para insertar un link en concreto apertura y cierre, entre medias se ha de aclarar qué frase queremos insertar.-->
+    <a href="DatosCombate.html">Datos de Combate</a>
+
+    <hr size="3">
+<!--Aquí se abre table-->
+    <table>
+<!--En table escribiremos como si de un método se tratara, organizado por Table head, body y foot. Table head se escribirá en negrita.-->
+      <thead>
+        <tr>
+            <th>Año</th>
+            <th>Acontecimiento</th>
+        </tr>
+
+      </thead>  
+      <tbody>
+        <!--Table data y Table row, corresponden a celda y columna-->
+        <tr>
+            <td>2016</td>
+            <td>Tocando la cancha</td>
+         </tr>
+    
+         <tr>
+            <td>2017</td>
+            <td>El olvido en la red</td>
+         </tr>
+    
+         <tr>
+            <td>2017-2018</td>
+            <td> Confía en el team mi Perro</td>
+         </tr>
+    
+      </tbody>
+      <tfoot>
+
+      </tfoot>
+     
+
+    </table>
+<!--Aquí se cierra tabla.-->
+
+<h3>Partidos</h3>
+
+<!--Esta complicada composición nos permite situar en columnas nuestro código.-->
+<!--Tabla, row, data = tabla, row, data-->
+<table  >
+    <tr>
+        <td>
+            <table cellspacing = "10">
+                <tr>
+                    <td>Team Sol</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Team Salv</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table cellspacing = "10">
+                <tr>
+                    <td>Team inferno</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Team Facu</td>
+                    <td>⭐⭐</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+    
+</body>
+</html>
